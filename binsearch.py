@@ -1,8 +1,8 @@
 #binsearch
 #Richard Parker
 #CSCI 77800 Fall 2022
-#collaborators: na
-#consulted: na
+#collaborators: none
+#consulted: none
 
 
 
