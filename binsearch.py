@@ -1,3 +1,11 @@
+#binsearch
+#Richard Parker
+#CSCI 77800 Fall 2022
+#collaborators: na
+#consulted: na
+
+
+
 def binsearch(arr,target):
 
     low = 0
