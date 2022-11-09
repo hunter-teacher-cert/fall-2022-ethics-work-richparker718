@@ -1,0 +1,11 @@
+Recommendations:
+
+Before purchasers of economy plus tickets pick their seats. The code could be made more ethical by developing a method that would declare a max age of children that when purchasing tickets if a child is 0-max_child_age the program would assign a seat next to the purchaser of the ticket. 
+
+Also, the code could be more ethical by developing or revising a method that would reserve front seats if it is determined that a purchaser of a ticket has a disability and then assign the first available front seat. If no purchasers have disabilities then the methods selling and assigning economy plus tickets/seats would remain. 
+
+I’m not sure but maybe these methods would be edited to accommodate the seating of parents with small children and persons with disabilities.
+
+purchase_economy_plus(plane,economy_sold,name):
+
+seat_economy(plane,economy_sold,name):
