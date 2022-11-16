@@ -1,9 +1,8 @@
-Async Week 10 - DUE 11/16 (2 weeks) 9:00pm
-Repo directory: week09_seating (yes, the same directory as last week)
-Note: This assignment should be done in teams of 2 or 3.
-Write up a description of the algorithm you will implement as a text, pdf or md file and store it in the folder under the name algorithm.txt, algorithm.pdf or algorithm.md
-Make a copy of the provided plane_seating.py in the folder and implement as much of your algorithm as you can. If you can't implement it fully, describe in the comments what you couldn't do due to either time or complexity.
-If you want to start with a new plane base rather than work from the provided code (even in another language), that's fine but make sure the filename for your implementation is still plane_seating.py or plane_seathing.whatever where whatever is the appropriate language extension
- 
+Async Week 10 - 
 
-I want to implement an algorithm that if a purchaser has a young child 0-7 and there are available seats next to each other, then assign the purchaser and child the seats 
+The algorithm that I wanted to implement was to simply allow purchasers of 2-3 economy tickets to be able to sit next to each other if two "avail" seats were next to each other. I originally wanted to have the algorithm be implemented for children under a max age but to keep it simple I will just do any purchaser of more than one ticket. My thought process is simple, to just check each row and column within, to the right for two availale seats/
+ 
+ 
+ Below are the comments from my copy of airplane.py
+
+#The code from 79-96 is what I developed in an attempt to accomplish my goal of if the value for any key:value pair was 2 or 3, take the key associated with the value and assign it to name. I wanted to keep it simple by with the logic being if an item in the dictionary is u-1 : 2, or u-4 : 3; if val_list.index(2) and plane row (i) and cols(i and i+1) was available then "name" should equal the key of that index. After failing multiple times, lines 143-149 were just experiments to test that the statements produced what I predicted. I did realize that "position = val_list.index(3)" and "position2 = val_list.index(2)" only referenced the first find of that value. I feel like with more time I would have eventually figured it out. I did learn a lot about dictionaries and key:pair relationships.
